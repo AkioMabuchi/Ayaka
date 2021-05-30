@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
 {
     private void Start()
     {
-        GameObject prefabCanvasWalls = Resources.Load<GameObject>("CanvasWalls");
+        GameObject prefabCanvasWalls = Resources.Load<GameObject>("Prefabs/CanvasWalls");
         Instantiate(prefabCanvasWalls);
     }
 }
