@@ -19,7 +19,7 @@ public class SoundPlayer : MonoBehaviour
     private void Awake()
     {
         _soundPlayerModel = ModelBank.SoundPlayerM;
-        _audioClips.Add(SoundName.Test, null);
+        _audioClips.Add(SoundName.Test, Resources.Load<AudioClip>("Sounds/Test"));
     }
 
     private void Start()
